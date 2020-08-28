@@ -1,0 +1,220 @@
+@media (max-width: 800px) {
+    .grid-5 {
+        grid-template-columns: 3% 45% 3% 45% 2%;
+    }
+
+    .plate1, .footer-separation-line, .weed {
+        display: none;
+    }
+
+    .footer-information p, .footer-information a {
+    font-size: .65em;
+
+    }
+
+    .language select {
+        font-size: .65em;
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-5 {
+        grid-template-columns: 10px 1fr 10px;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: .75em;
+    }
+
+    .onion {
+        display: none;
+    }
+
+    /* header */
+
+    .welcome-wrapper {
+        text-align: center;
+
+    }
+
+    .welcome-wrapper p {
+        max-width: 270px;
+    }
+
+    /* block a */
+
+    .block-a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .block-a .discover-image {
+        margin: 0;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .discover-wrapper {
+        text-align: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    form button {
+        width: 130px;
+        margin: 0 auto;
+    }
+
+    /* block b */
+
+    .block-b {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .block-b .find-food-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .green-line1 {
+        top: 1070px;
+        left: 42%;
+    }
+
+    .cucumber {
+        top: 1600px;
+    }
+
+    /* block c */
+
+    .block-c {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .block-c .tap-to-place h1 {
+        margin-top: 100px;
+    }
+
+    .hand-plate {
+        margin-top: 10px;
+    }
+
+    /* block d */
+
+    .block-d {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block-d .track-your-food-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .plate2 {
+        left: 40%;
+        top: 2870px;
+    }
+
+    .plate3 {
+        left: 50%;
+    }
+
+    /* block e */
+
+    .block-e {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block-e .get-the-app-text {
+        flex-direction: column;
+    }
+
+    .block-e .get-the-app-text img {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .block-e .get-the-app-icons img {
+        height: 35px;
+    }
+
+    .block-e .get-the-app-icons img + img{
+        margin-right: 0;
+    }
+
+    .block-e .get-the-app-image {
+        width: 200px;
+        margin-top: 15px;
+    }
+
+    .green-line3 {
+        display: none;
+    }
+
+    /* block f */
+
+    .block-f {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .partner-wrapper img, .deliver-wrapper img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .deliver-wrapper {
+        margin-top: 40px;
+    }
+
+    /* footer */
+
+    footer {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .footer-information {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .download-icons {
+        width: 190px;
+        display: flex;
+        justify-content: center;
+        margin: auto auto 10px auto;
+    }
+
+    .download-icons img + img {
+        margin-right: 0;
+    }
+
+
+
+}
