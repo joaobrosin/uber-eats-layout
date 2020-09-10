@@ -1,11 +1,14 @@
 // modal menu 
 
-const openMenuBtn = document.querySelector('.menu-open-btn')
+const openMenuBtn = document.querySelectorAll('.menu-open-btn')
+
 const closeMenuBtn = document.querySelector('.menu-close-btn')
 const modalMenu = document.querySelector('.modal-menu')
 
-openMenuBtn.addEventListener('click', () => {
+openMenuBtn.forEach((button) => {
+    button.addEventListener('click', () => {
     modalMenu.classList.add('active')
+    })
 })
 
 closeMenuBtn.addEventListener('click', () => {
